@@ -1,0 +1,34 @@
+ABOUT
+	The main program is main.py
+
+	The input is read from a file (words.txt)
+	Note : each word must be present on a separate line
+
+	For removing english words, the package enchant has been used.
+	It was installed using : pip install pyenchant
+
+
+	It uses the following files :
+		rules.py - contains stemming rules
+		input_handler.py
+
+	These files have been imported within main.py
+
+	If the stemmed words are to be printed, uncomment line13 (print(wordList)) of main.py
+
+	It creates a file named "error_log" in case of any exceptions with the position as which they occur
+
+HOW TO RUN
+	Run using : python3 main.py > output
+	Note : preferably use redirection for the output to a file as the output may be very large
+
+INPUT FILE
+	words.txt
+
+OUTPUT 
+	Number of words to be stemmed :  121966
+	Words Scanned :  121966
+	Non-english words removed :  344578
+	ING words removed :  1195
+	ISM words removed :  234
+	other words removed :  28291

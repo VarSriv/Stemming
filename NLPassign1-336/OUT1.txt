@@ -1,0 +1,6 @@
+Number of words to be stemmed :  121966
+Words Scanned :  121966
+Non-english words removed :  344578
+ING words removed :  1195
+ISM words removed :  234
+other words removed :  28291
